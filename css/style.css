@@ -1,0 +1,35 @@
+header img{
+	max-width:48px;
+	max-height:48px;
+
+}
+header h1{
+	float: right;
+	/*position: relative;*/
+  	display: inline-block;
+
+}
+
+header{	
+	margin-top: 3em;
+	padding-bottom: 1em;
+	border-bottom: solid;
+}
+
+@media screen and (max-width: 400px){
+
+	header img{
+		display: none;
+	}
+
+	header h1{
+		float: none;
+	}
+}
+
+#showcase {
+	margin-top: 10px;
+	
+	
+
+}
