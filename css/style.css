@@ -1,8 +1,9 @@
 header img{
-	max-width:64px;
-	max-height:64px;
+	max-width: 64px;
+	max-height: 64px;
 
 }
+
 header div{
 	float: right;
 	/*position: relative;*/
@@ -34,14 +35,13 @@ header{
 }
 
 
-#showcase {
+.showcase {
 	margin-top: 10px;
 	margin-bottom: 20px;
 
 	
 
 }
-
 
 .thumbnail-image{
 	display: block;
