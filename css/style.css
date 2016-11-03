@@ -1,18 +1,21 @@
-header img{
+.header-avatar {
 	max-width: 64px;
 	max-height: 64px;
 
 }
 
-header div{
+.header-title {
 	float: right;
 	/*position: relative;*/
   	display: inline-block;
 
 }
 
-h2{
+/*Udacity style guide recommends avoiding conjunction of
+ type selectors with id/class as much as possible for 
+ efficiency reason. Let's declare a class for each node.*/
 
+h2{
 	color: #7d97ad;
 }
 
@@ -25,11 +28,11 @@ header{
 
 @media screen and (max-width: 400px){
 
-	header img{
+	.header-avatar {
 		display: none;
 	}
 
-	header div{
+	.header-title {
 		float: none;
 	}
 }
@@ -38,7 +41,5 @@ header{
 .showcase {
 	margin-top: 10px;
 	margin-bottom: 20px;
-
-	
 
 }
